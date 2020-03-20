@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET",
+      "children" : [ {
+        "name" : "test_get_toast",
+        "uid" : "f6ab471b7536ac40",
+        "parentUid" : "b42da721083d405a494aaa7ab8f415ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1584714792080,
+          "stop" : 1584714797100,
+          "duration" : 5020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b42da721083d405a494aaa7ab8f415ce"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

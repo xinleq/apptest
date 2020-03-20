@@ -1,0 +1,69 @@
+{
+  "321eb4fa22303620381239a3841080df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "f6ab471b7536ac40",
+      "reportUrl" : "http://localhost:8080/job/apptest/50/allure/#testresult/f6ab471b7536ac40",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET",
+      "time" : {
+        "start" : 1584714792080,
+        "stop" : 1584714797100,
+        "duration" : 5020
+      }
+    }, {
+      "uid" : "cfe7b04099a01293",
+      "reportUrl" : "http://localhost:8080/job/apptest/49/allure/#testresult/cfe7b04099a01293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584714725955,
+        "stop" : 1584714732418,
+        "duration" : 6463
+      }
+    }, {
+      "uid" : "fb10648e4156bd49",
+      "reportUrl" : "http://localhost:8080/job/apptest/48/allure/#testresult/fb10648e4156bd49",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029904F10490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1584714206172,
+        "stop" : 1584714206172,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a69af16e8713d8e2",
+      "reportUrl" : "http://localhost:8080/job/apptest/45/allure/#testresult/a69af16e8713d8e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584626252786,
+        "stop" : 1584626259013,
+        "duration" : 6227
+      }
+    }, {
+      "uid" : "eec16b7640a60aa7",
+      "reportUrl" : "http://localhost:8080/job/apptest/44/allure/#testresult/eec16b7640a60aa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584626088424,
+        "stop" : 1584626094734,
+        "duration" : 6310
+      }
+    }, {
+      "uid" : "ed88f383dee889b8",
+      "reportUrl" : "http://localhost:8080/job/apptest/43/allure/#testresult/ed88f383dee889b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584625985810,
+        "stop" : 1584625992023,
+        "duration" : 6213
+      }
+    } ]
+  }
+}

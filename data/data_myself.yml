@@ -1,0 +1,6 @@
+# {"num":18513891234, "pwd":"abcdef"}, {"num":18513891234, "pwd":"123456"}
+
+test_login_reg:
+  test_login_reg_1:
+    num: 18513891234
+    pwd: 123456
